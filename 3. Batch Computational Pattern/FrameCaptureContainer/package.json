@@ -17,6 +17,6 @@
     "azure-event-hubs": "^0.0.8",
     "docker-modem": "^1.0.6",
     "fs": "^0.0.1-security",
-    "tar-fs": "^1.16.0"
+    "tar-fs": "^2.0.0"
   }
 }
