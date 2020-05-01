@@ -5,7 +5,9 @@
   "author": "Manfred Wittenbols <manfredw@canviz.com>",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "express": "^4.16.1",
@@ -17,6 +19,8 @@
     "azure-event-hubs": "^0.0.8",
     "docker-modem": "^1.0.6",
     "fs": "^0.0.1-security",
-    "tar-fs": "^1.16.0"
-  }
+    "tar-fs": "^1.16.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
